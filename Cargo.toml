@@ -1,0 +1,14 @@
+[package]
+name = "rsline"
+version = "0.1.0"
+edition = "2021"
+description = "Easy CLI for Rust 🦀"
+license = "MIT"
+license-file = "https://github.com/jasiukiewicztymon/rsline/blob/main/LICENSE"
+documentation = "https://github.com/jasiukiewicztymon/rsline"
+homepage = "https://github.com/jasiukiewicztymon/rsline"
+repository = "https://github.com/jasiukiewicztymon/rsline"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
