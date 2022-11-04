@@ -6,7 +6,15 @@ pub struct Command {
 }
 
 pub fn mount(commands: Vec<Command>, args: Vec<String>) {
-    for command in commands.iter() {
-        println!("{}", command.name)
+    if args[2] == "help" {
+
+    } else {
+        for command in commands.iter() {
+            if command.name == args[2] {
+                let fncommand = command.run;
+                
+                fncommand((&args[3..]).to_vec());
+            }
+        }
     }
 }
